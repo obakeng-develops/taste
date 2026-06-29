@@ -44,6 +44,27 @@ to grow. The *why* is the point; a bare link teaches nothing.
 Then start designing or writing — `/taste` loads on its own — or run any of the
 commands above. (Adjust the marketplace path to wherever you host this repo.)
 
+## Updating
+
+Turn on auto-update once and Claude Code pulls new versions at startup:
+
+```
+/plugin
+```
+
+Go to **Marketplaces → taste → Enable auto-update**. When an update lands, Claude
+Code prompts you to `/reload-plugins`.
+
+To update by hand instead:
+
+```
+/plugin marketplace update taste
+/reload-plugins
+```
+
+Your library at `~/.claude/taste/references.md` lives outside the plugin, so
+updates never touch your saved references.
+
 ## Credits
 
 The model stands on others' work:
