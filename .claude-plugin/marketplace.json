@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "taste",
+  "description": "Cultivated taste for interfaces and prose — a build-time model, an audit, a codebase sweep, and a growing reference library.",
+  "owner": {
+    "name": "Obakeng",
+    "url": "https://github.com/obakeng-develops"
+  },
+  "plugins": [
+    {
+      "name": "taste",
+      "description": "Apply cultivated taste to UI and writing. Kill jank, honor affordances, lead with the user's question; cut clutter, plain words, active verbs. Includes audit, codebase sweep, and a personal reference library.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
